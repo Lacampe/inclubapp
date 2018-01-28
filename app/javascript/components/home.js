@@ -2,10 +2,12 @@ import React from 'react'
 
 import '../styles/home'
 
+import Logo from '../images/inclub-logo'
+
 const Home = () => {
   return (
     <div className="home-container">
-      <h1>INCLUB</h1>
+      <img src={Logo} alt="Inclub logo"/>
     </div>
   )
 }
